@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercicio01lista01 {
+    
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Digite um número :");
+        int numero = in.nextInt();
+        
+        int antecessor = numero - 1;
+
+        System.out.println (" O antecessor desse numero e : " + antecessor) ;
+
+
+
+
+        
+    }
+}
