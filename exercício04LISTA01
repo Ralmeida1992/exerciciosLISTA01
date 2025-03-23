@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+import java.util.Scanner;
+public class Exercicio04lista01 {
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.println(" Qual a altura do Triangulo em metros ?");
+        
+        float  h , b ; // (h= altura do tringulo // b= base do tringulo utilizado calculo da are = b * h / 2 )
+        h = in.nextFloat();
+        System.out.println(" Qual o comprimento da base do triangulo  em metros? ");
+        b = in.nextFloat();
+
+        float divisao ;
+        System.out.println(" Qual a area total do triangulo em metros quadrados? " + b * h / 2 );
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
+}
