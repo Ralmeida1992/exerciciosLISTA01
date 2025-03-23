@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Exercicio07lista01 {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.println(" informe a distancia do trajeto em quilometros : ");
+        float distancia ;
+        distancia = in.nextFloat();
+        System.out.println(" informe a velocidade media da viagem em km/h : ");
+        float velocidade ; 
+        velocidade = in.nextFloat();
+        float tempo = distancia / velocidade ;
+        System.out.println(" tempo calculado de viagem em horas : " + distancia / velocidade );
+
+
+
+
+
+
+    }
+
+}
