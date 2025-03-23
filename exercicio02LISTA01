@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercicio02lista01 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+    System.out.println(" digite um numero real: ");
+    float numero ;
+    numero = in.nextFloat();
+    float multiplicar = numero ;
+    System.out.println(" acrescido de 20% da quanto?  " + numero * 1.2);
+     
+    
+    
+
+
+
+    }
+}
