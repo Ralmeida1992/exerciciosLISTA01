@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercicio06lista01 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println(" informe duas notas de um aluno:  ");
+        float  nota1 , nota2   ;
+
+        nota1 = in.nextFloat();
+        nota2 = in.nextFloat();
+        float media = nota1 + nota2  ;
+        System.out.println("A  media dessas notas e ?  " + (nota1+nota2) / 2 );
+
+    }
+
+    
+}
