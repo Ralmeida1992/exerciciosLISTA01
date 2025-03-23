@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercicio03lista01 {
+    
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Digite um número :");
+        int numero = in.nextInt();
+        int quadrado = numero ;
+        
+        System.out.println("Qual o valor desse numero ao quadrado? " + numero * numero );
+        
+
+
+
+
+        
+    }
+}
