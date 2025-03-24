@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exercicio01lista03 {
+    
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite um numero inteiro ");
+        int numero = in.nextInt();
+        if (numero > 0) {
+            System.out.println(" O numero e positivo ");
+         } else if (numero < 0) {
+            System.out.println(" O numero e negativo ");
+         } else 
+            System.out.println(" O numero e zero ");
+        }  
+
+        }
